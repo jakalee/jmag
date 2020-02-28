@@ -1,3 +1,4 @@
+name: py27
 channels:
   - conda-forge
   - defaults
