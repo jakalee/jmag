@@ -1,12 +1,19 @@
-name: example-environment
+name: ipyvolume
 channels:
-  - conda-forge
+ - conda-forge
 dependencies:
-  - python
-  - numpy
-  - pip
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+ - nodejs
+ - pip:
+   - traittypes
+   - traitlets
+   - ipywidgets>=7.4
+   - Pillow
+   - scipy
+   - numpy
+   - scikit-image>=0.13
+   - requests
+   - ipywebrtc>=0.4
+   - pythreejs>=1.0
+   - matplotlib
+   - jupyterlab>=0.34
+   - notebook>=5.3
