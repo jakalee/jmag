@@ -2,6 +2,5 @@
 
 set -ex
 
-jupyter labextension install @jupyterlab/geojson-extension jupyterlab-drawio
 jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs js --no-build
 jupyter lab build
