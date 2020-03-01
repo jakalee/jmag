@@ -1,1 +1,27 @@
 set -ex
+jupyter labextension install @jupyter-widgets/jupyterlab-manager \
+                             @jupyterlab/git \
+                             @jupyterlab/toc \
+                             jupyterlab-python-bytecode \
+                             @jupyter-widgets/jupyterlab-sidecar \
+                             jupyterlab-drawio \
+                             jupyter-leaflet \
+                             @parente/jupyterlab-quickopen \
+                             jupyterlab-topbar-extension \
+                             @jupyterlab/celltags \
+                             @krassowski/jupyterlab_go_to_definition \
+                             jupyterlab-system-monitor \
+                             jupyterlab-topbar-text \
+                             jupyterlab-logout \
+                             jupyterlab-theme-toggle \
+                             @ryantam626/jupyterlab_code_formatter \
+                             @jupyter-voila/jupyterlab-preview \
+                             @oriolmirosa/jupyterlab_materialdarker \
+                             ipycanvas \
+                             --no-build
+
+jupyter serverextension enable --py jupyterlab_git
+jupyter serverextension enable --py jupyterlab_code_formatter
+jupyter serverextension enable --py jupyterlab_sql
+
+jupyter lab build
