@@ -9,12 +9,6 @@
 
 3. **Open** a terminal (`cmd` on Windows).
 
-4. **Clone** the repository:
-
-```bash
-$ git clone https://github.com/ipython-books/cookbook-2nd-code.git
-$ cd cookbook-2nd-code
-```
 
 5. **Create** the `cookbook` [conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file):
 
