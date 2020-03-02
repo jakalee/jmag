@@ -1,4 +1,2 @@
 set -ex
-jupyter labextension install jupyterlab-topbar-extension \
-
-jupyter lab build
+pip install -e .
