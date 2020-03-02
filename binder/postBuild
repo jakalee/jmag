@@ -1,3 +1,3 @@
 set -ex
-conda install -c damianavila82 rise
+
 jupyter lab build
