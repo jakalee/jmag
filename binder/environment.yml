@@ -95,7 +95,7 @@ dependencies:
 - jdcal
 - jedi
 - jinja2
-- jupyter
+- jupyter=1.0
 - jupyter_client
 - jupyter_console
 - jupyter_core
