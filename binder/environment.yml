@@ -3,6 +3,7 @@ channels:
 - ioam
 - conda-forge
 - defaults
+- damianavila82
 dependencies:
 - altair
 - bqplot
@@ -188,6 +189,7 @@ dependencies:
 - xlwt
 - zeromq
 - holoviews
+- rise
 - pip:
   - autopep8
   - backports.shutil-get-terminal-size
